@@ -22,7 +22,7 @@ const PrivateRoute = ({ children }) => {
     return (
       <div className="page-loader">
         <div className="spinner spinner-lg" />
-        <p>Loading Nexus…</p>
+        <p>Loading Ethara …</p>
       </div>
     );
   }

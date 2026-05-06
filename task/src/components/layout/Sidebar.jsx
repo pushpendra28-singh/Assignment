@@ -72,7 +72,7 @@ export default function Sidebar({ isOpen, onClose }) {
               <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="var(--accent-bright)" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </div>
-          <span className="sidebar-logo-text">Nexus</span>
+          <span className="sidebar-logo-text">Ethara AI</span>
         </div>
 
         {/* Navigation */}

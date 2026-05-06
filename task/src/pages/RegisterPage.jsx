@@ -59,12 +59,12 @@ export default function RegisterPage() {
               <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="var(--accent-bright)" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </div>
-          <span className="auth-brand-name">Nexus</span>
+          <span className="auth-brand-name">Ethara AI</span>
         </div>
 
         <div className="auth-hero">
           <h1>Build great<br /><span>things together</span></h1>
-          <p>Join thousands of teams who use Nexus to ship faster and collaborate smarter.</p>
+          <p>Join thousands of teams who use Ethara AI to ship faster and collaborate smarter.</p>
 
           <div className="auth-stats">
             {[
@@ -87,7 +87,7 @@ export default function RegisterPage() {
         <div className="auth-form-container">
           <div className="auth-form-header">
             <h2>Create your account</h2>
-            <p>Start managing your team with Nexus</p>
+            <p>Start managing your team with Ethara</p>
           </div>
 
           {errors.general && (

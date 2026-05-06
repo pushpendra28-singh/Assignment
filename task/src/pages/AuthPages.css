@@ -1,14 +1,19 @@
 .auth-page {
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
 /* Left panel */
 .auth-left {
   background: linear-gradient(135deg, #0f0e1a 0%, #13121e 100%);
-  position: relative;
+  position: sticky;
+  top: 0;
+
+  height: 100vh;
   overflow: hidden;
+
   display: flex;
   flex-direction: column;
   padding: 40px 48px;
@@ -153,9 +158,14 @@
 .auth-right {
   background: var(--bg-base);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+
   padding: 40px 48px;
+
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .auth-form-container {

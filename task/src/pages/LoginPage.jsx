@@ -56,7 +56,7 @@ export default function LoginPage() {
               <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="var(--accent-bright)" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </div>
-          <span className="auth-brand-name">Nexus</span>
+          <span className="auth-brand-name">Ethara AI</span>
         </div>
 
         <div className="auth-hero">
@@ -83,7 +83,7 @@ export default function LoginPage() {
       <div className="auth-right">
         <div className="auth-form-container">
           <div className="auth-form-header">
-            <h2>Sign in to Nexus</h2>
+            <h2>Sign in to Ethara</h2>
             <p>Enter your credentials to access your workspace</p>
           </div>
 
